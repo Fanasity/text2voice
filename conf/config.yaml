@@ -1,0 +1,22 @@
+system:
+  nodeID: 1574693366447341569
+  type: 1
+
+kafka:
+  gateway: 
+    - 192.168.55.127:9092
+  autoCommitInterval: 20ms
+  bufferSize: 16384
+  bufferMemory: 33554432
+  maxPollRecords: 500
+  propertiesSessionTimeout: 15000
+  taskTopic: 1574693366447341569-1-sendtask
+  resultTopic: 1574693366447341569-1-recvresult
+
+minio:
+  endpoint: '127.0.0.1:20442'
+  useSecure: false
+  public:  '127.0.0.1:20442'
+  accessKey: 'W87C15HOXXTDPC3AVFJE'
+  secret: '7YBIqYvS25R4wuMGP3O5o7KzZnswiBAIdCuHk2hf'
+  bucket: 'demo'
