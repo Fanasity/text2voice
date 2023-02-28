@@ -5,7 +5,7 @@ import (
 	"io"
 	"log"
 
-	"aiServer/model"
+	"github.com/Fanasity/text2voice/model"
 
 	"github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/credentials"

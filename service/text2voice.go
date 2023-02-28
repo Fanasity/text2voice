@@ -12,9 +12,9 @@ import (
 	"net/url"
 	"time"
 
-	"aiServer/model"
-	"aiServer/queue"
-	"aiServer/storage"
+	"github.com/Fanasity/text2voice/model"
+	"github.com/Fanasity/text2voice/queue"
+	"github.com/Fanasity/text2voice/storage"
 )
 
 // Speech struct

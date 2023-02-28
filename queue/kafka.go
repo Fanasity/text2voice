@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"aiServer/model"
+	"github.com/Fanasity/text2voice/model"
 
 	"github.com/Shopify/sarama"
 )

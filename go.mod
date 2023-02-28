@@ -1,4 +1,4 @@
-module aiServer
+module github.com/Fanasity/text2voice
 
 go 1.18
 

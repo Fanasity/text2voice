@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"aiServer/model"
-	"aiServer/queue"
-	"aiServer/service"
+	"github.com/Fanasity/text2voice/model"
+	"github.com/Fanasity/text2voice/queue"
+	"github.com/Fanasity/text2voice/service"
 
 	"github.com/spf13/viper"
 )
